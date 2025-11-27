@@ -1,4 +1,4 @@
-window.config = {
+const config = {
   "property": {
     "streetAddress": "145 Ferrara Drive ",
     "city": "Smiths Falls",
@@ -27,20 +27,19 @@ window.config = {
   "openHouse": {
     "eventDate": "",
     "bundleItems": [
-            {
-                  "icon": "fas fa-home",
-                  "text": "Full Property Listing",
-                  "url": "https://www.realtor.ca/real-estate/29139963/145-ferrara-drive-smiths-falls-901-smiths-falls"
-            }
-      ]
+      {
+        "icon": "fas fa-home",
+        "text": "Full Property Listing"
+      }
+    ]
   },
   "meta": {
     "pageTitlePrefix": "🏡 Nicole Garrett Open House",
     "navBrandLogoText": "OPEN HOUSE",
-    "privacyPolicyLink": "https://driscollpeca.com/privacy.html"
+    "privacyPolicyLink": "https://driscollpeca.com/privacy-policy/"
   },
   "settings": {
-   "primaryColor": "#00224a",
+    "primaryColor": "#00224a",
     "secondaryColor": "#05C3F9",
     "accentColor": "#05C3F9",
     "neutralColor": "",
@@ -59,36 +58,72 @@ window.config = {
       "id": "agent_status",
       "questionText": "Are you currently exploring homes with a real estate agent?",
       "options": [
-        { "value": "committed", "text": "Yes, I'm committed to an agent." },
-        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-        { "value": "gathering_info", "text": "Just gathering information at this stage." }
+        {
+          "value": "committed",
+          "text": "Yes, I'm committed to an agent."
+        },
+        {
+          "value": "not_committed",
+          "text": "No, I'm not committed to an agent."
+        },
+        {
+          "value": "gathering_info",
+          "text": "Just gathering information at this stage."
+        }
       ]
     },
     {
       "id": "interest_level",
       "questionText": "How interested are you in this Detached?",
       "options": [
-        { "value": "very_interested", "text": "Very interested, actively looking." },
-        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
-        { "value": "just_browsing", "text": "Just browsing for now." }
+        {
+          "value": "very_interested",
+          "text": "Very interested, actively looking."
+        },
+        {
+          "value": "somewhat_interested",
+          "text": "Somewhat interested, keeping options open."
+        },
+        {
+          "value": "just_browsing",
+          "text": "Just browsing for now."
+        }
       ]
     },
     {
       "id": "neighborhood_engagement",
       "questionText": "How do you usually enjoy the neighborhood?",
       "options": [
-        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
-        { "value": "considering_move", "text": "I'm considering moving to this area." },
-        { "value": "just_visiting", "text": "Just visiting for the open house." }
+        {
+          "value": "resident_explorer",
+          "text": "I live here and love exploring locally."
+        },
+        {
+          "value": "considering_move",
+          "text": "I'm considering moving to this area."
+        },
+        {
+          "value": "just_visiting",
+          "text": "Just visiting for the open house."
+        }
       ]
     },
     {
       "id": "feature_attraction",
       "questionText": "What feature attracted you to this home?",
       "options": [
-        { "value": "design_layout", "text": "The design and layout." },
-        { "value": "location_neighborhood", "text": "The location and neighborhood." },
-        { "value": "home_price", "text": "The price of the home." }
+        {
+          "value": "design_layout",
+          "text": "The design and layout."
+        },
+        {
+          "value": "location_neighborhood",
+          "text": "The location and neighborhood."
+        },
+        {
+          "value": "home_price",
+          "text": "The price of the home."
+        }
       ]
     }
   ],
